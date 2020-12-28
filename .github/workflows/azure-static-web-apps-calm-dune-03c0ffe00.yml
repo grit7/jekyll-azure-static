@@ -24,7 +24,6 @@ jobs:
         run: bundle install
       - name: Jekyll build
         run: jekyll build
-        
         with:
           submodules: true
       - name: Build And Deploy
